@@ -1,5 +1,7 @@
 # Photon Mapper
 
+![alt text][final]
+
 ### Introduction
 For the raytracer we wanted to dedicate our time to producing a spectacular image and optimise in areas where necessary, rather than focusing on just optimising. We spent most of our time implementing global illumination and optimising its process.
 
@@ -17,4 +19,4 @@ Adding realistic and correct reflections and refractions to the project took a l
 
 
 
-[final]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+[final]: https://github.com/jmsweg/raytracer/blob/master/img/final.png "Final render"
