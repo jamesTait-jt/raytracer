@@ -71,4 +71,4 @@ Finally we would like to point out that the devices we were rendering on could n
 [fresnel]: https://github.com/jmsweg/raytracer/blob/master/img/fresnel.png "The Fresnel effect"
 [high-gathering]: https://github.com/jmsweg/raytracer/blob/master/img/high-gathering.png "1 Million Photons 10 000 Gathered"
 [low-gathering]: https://github.com/jmsweg/raytracer/blob/master/img/low-gathering.png "25 Million Photons 1000 Gathered"
-[soft-shadows]: https://github.com/jmsweg/raytracer/blob/master/img/final.png "Soft shadows"
+[soft-shadows]: https://github.com/jmsweg/raytracer/blob/master/img/soft-shadows.png "Soft shadows"
