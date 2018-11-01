@@ -1,0 +1,45 @@
+Completed:
+- Direct Shadows
+- lighting
+- Movement of the camera
+- Refraction
+- Reflection
+- Fresnel
+- Sphere creation
+
+================================================================================
+
+EXTENSIONS TODO NOW: Soft shadows with area light
+
+Soft shadows is achieved by sampling multiple point lights in the region of a sphere.
+We would then have multiple light sources to trace every pixel value back to, we can
+then take an average of the amount of light received to calculate the pixels illumination.
+For example say the light on the top middle of the room, we sample 50 different points within
+that sphere. We now have 50 different point light sources. Now for a point which is in the middle
+of the room which successfully traces back to all other lights without being occluded it will be
+fully lit. However a point say near the corner of a box will only be reached by some of the light
+sources, so it will have a lower luminance.
+
+- Sample random positions within a spherical region in the main function to dictate
+  where our light goes.
+
+- When raytracing check against all of these points when determining the illumination
+  of an object in the scene.
+
+================================================================================
+
+- Percentage reflexivity required
+
+- Fix black bit which appears in some reflections
+
+- BRDFs - a more realistic way to parametrise the ray-surface interaction
+
+- Procedural textures
+
+- Bump and environment mapping
+
+- Depth of field
+
+- Pathtracing
+
+- Perfect sphere
